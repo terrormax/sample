@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aakar Acropolis | The Pinnacle of 3 BHK Living</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,600;1,400&family=Inter:wght@200;400;600&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        gold: '#C5A059',
+                        charcoal: '#121212',
+                    },
+                    fontFamily: {
+                        serif: ['Cormorant Garamond', 'serif'],
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .glass-nav { background: rgba(255, 255, 255, 0.8); backdrop-filter: blur(20px); }
+        .hero-mask { background: linear-gradient(75deg, rgba(18,18,18,0.95) 0%, rgba(18,18,18,0.4) 100%); }
+        .gold-border { border-color: rgba(197, 160, 89, 0.3); }
+        .text-kern { letter-spacing: 0.15em; }
+    </style>
+</head>
+<body class="bg-white text-charcoal font-sans antialiased">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 glass-nav border-b gold-border px-8 py-5">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <div class="flex flex-col">
+                <span class="font-serif text-2xl font-bold tracking-widest leading-none">AAKAR</span>
+                <span class="text-gold text-[10px] tracking-[0.4em] font-medium uppercase mt-1">Acropolis Phase I</span>
+            </div>
+            <div class="hidden lg:flex gap-12 text-[10px] tracking-[0.2em] font-semibold uppercase text-gray-400">
+                <a href="#" class="hover:text-gold transition-colors">Architecture</a>
+                <a href="#" class="hover:text-gold transition-colors">Amenities</a>
+                <a href="#" class="hover:text-gold transition-colors">Location</a>
+            </div>
+            <a href="https://wa.me/91XXXXXXXXXX" class="bg-charcoal text-white px-8 py-3 rounded-full text-[10px] tracking-widest font-bold hover:bg-gold transition-all duration-500">
+                SCHEDULE VISIT
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative h-screen flex items-center overflow-hidden">
+        <img src="https://housing-images.n7net.in/012c1500/198580b5d9b121c3c65ebb3835abb8cd/v0/fs.jpeg" 
+             class="absolute inset-0 w-full h-full object-cover" alt="Main Exterior">
+        <div class="absolute inset-0 hero-mask"></div>
+        
+        <div class="relative z-10 w-full px-8 max-w-7xl mx-auto text-white">
+            <div class="max-w-3xl">
+                <span class="text-gold text-xs tracking-[0.5em] uppercase font-bold mb-6 block">Mysuru's Most Exclusive Address</span>
+                <h1 class="font-serif text-6xl md:text-8xl leading-[0.85] mb-8 italic">
+                    Pure luxury, <br><span class="not-italic">uncompromised.</span>
+                </h1>
+                <p class="text-xl text-gray-300 max-w-lg mb-10 font-light leading-relaxed">
+                    Thoughtfully curated 3 BHK residences on Bogadi Road, designed for those who appreciate the finer things.
+                </p>
+                <div class="flex flex-wrap items-center gap-8">
+                    <a href="https://wa.me/91XXXXXXXXXX" class="bg-gold text-white px-12 py-5 rounded-full font-bold text-xs tracking-widest hover:bg-white hover:text-charcoal transition-all duration-500 shadow-2xl">
+                        VIEW FLOOR PLANS
+                    </a>
+                    <div class="flex flex-col">
+                        <span class="text-gold text-2xl font-serif">₹1.15 Cr*</span>
+                        <span class="text-[9px] uppercase tracking-widest text-gray-400">Starting Price</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Grid -->
+    <section class="py-32 px-8 max-w-7xl mx-auto">
+        <div class="text-center mb-20">
+            <h2 class="font-serif text-5xl mb-4 italic">Living Artistry</h2>
+            <div class="h-px w-20 bg-gold mx-auto"></div>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-4 grid-rows-2 gap-4 h-auto md:h-[800px]">
+            <!-- Main Gallery Item -->
+            <div class="md:col-span-2 md:row-span-2 overflow-hidden group relative">
+                <img src="https://housing-images.n7net.in/012c1500/c2dc9f979180b9ee774fc80b0336b878/v0/fs.jpeg" 
+                     class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" alt="Resort Pool">
+                <div class="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-8">
+                    <p class="text-white font-serif text-2xl">Leisure Pool</p>
+                </div>
+            </div>
+            
+            <!-- Secondary Items -->
+            <div class="md:col-span-2 overflow-hidden group relative">
+                <img src="https://housing-images.n7net.in/012c1500/8e81f8fae375d998e04b0f71f50c1ab4/v0/fs.png" 
+                     class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" alt="Kids Play Area">
+                <div class="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-8">
+                    <p class="text-white font-serif text-2xl">Recreation Zone</p>
+                </div>
+            </div>
+            
+            <div class="overflow-hidden group relative">
+                <img src="https://housing-images.n7net.in/012c1500/94b771e7c90544907ff19f82fca1b963/v0/fs.png" 
+                     class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" alt="Lush Garden">
+            </div>
+            
+            <div class="overflow-hidden group relative">
+                <img src="https://housing-images.n7net.in/012c1500/0ba3e705699489c2e595106d9031d3b2/v0/fs.jpeg" 
+                     class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" alt="Architecture Detail">
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="bg-charcoal py-32 px-8 border-t border-gold/20">
+        <div class="max-w-4xl mx-auto text-center">
+            <span class="text-gold text-xs tracking-[0.4em] uppercase font-bold mb-8 block">Limited Residences Available</span>
+            <h2 class="font-serif text-5xl md:text-6xl text-white mb-12 italic">Begin your legacy <br><span class="not-italic">at Aakar Acropolis</span></h2>
+            <div class="flex flex-col md:flex-row justify-center gap-6">
+                <a href="tel:+91XXXXXXXXXX" class="border border-white/20 text-white px-10 py-5 rounded-full hover:border-gold transition-all">CALL SALES OFFICE</a>
+                <a href="https://wa.me/91XXXXXXXXXX" class="bg-gold text-white px-10 py-5 rounded-full font-bold hover:bg-white hover:text-charcoal transition-all">WHATSAPP ENQUIRY</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-12 bg-charcoal text-center border-t border-white/5">
+        <p class="text-gray-500 text-[10px] tracking-[0.5em] uppercase">Bogadi Road, Mysuru • Real Estate Excellence</p>
+    </footer>
+
+</body>
+</html>
